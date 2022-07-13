@@ -21,6 +21,7 @@ var sumClosure: (Int, Int) -> (Int) = { num1, num2 in
 func sumNotClosure(_ num1: Int, _ num2: Int) -> Int {
     return num1 + num2
 }
-sumClosure(1,2)
-sumNotClosure(1, 2)
+
+sumClosure(1,2)		// 3	
+sumNotClosure(1, 2) // 3
 ```
