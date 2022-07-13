@@ -12,7 +12,15 @@
 
 ## Closure Example
 ```swift
-let sum: (Int, Int) -> Int = { num1, num2 in
-	print(num1 + num2)
+// With Closure
+var sumClosure: (Int, Int) -> (Int) = { num1, num2 in
+    return (num1 + num2)
 }
+
+// Without closure
+func sumNotClosure(_ num1: Int, _ num2: Int) -> Int {
+    return num1 + num2
+}
+sumClosure(1,2)
+sumNotClosure(1, 2)
 ```
