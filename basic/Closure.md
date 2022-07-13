@@ -6,11 +6,13 @@
 ## Closure Syntax
 ```
 {(parameters) -> return type in
-	statements
+ statements
 }
 ```
 
 ## Closure Example
+```
 let sum: (Int, Int) -> Int = { num1, num2 in
 	print(num1 + num2)
 }
+```
